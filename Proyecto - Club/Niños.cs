@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto___Club
 {
-    public partial class Infante : MetroFramework.Forms.MetroForm
+    public partial class Niños : MetroFramework.Forms.MetroForm
     {
-        public Infante()
+        public Niños()
         {
             InitializeComponent();
         }
