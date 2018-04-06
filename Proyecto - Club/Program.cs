@@ -16,7 +16,7 @@ namespace Proyecto___Club
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Menu_Opciones());
         }
     }
 }

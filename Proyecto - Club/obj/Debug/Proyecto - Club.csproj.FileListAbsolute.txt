@@ -10,3 +10,15 @@ C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto\Proyecto
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\Proyecto - Club.exe.config
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto - Club.exe
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto - Club.pdb
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\Proyecto - Club.exe
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\Proyecto - Club.pdb
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MetroFramework.Design.dll
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MetroFramework.dll
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto - Club.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Form1.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Niños.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Properties.Resources.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto - Club.csproj.GenerateResource.Cache
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Menu_Opciones.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Menu.resources

@@ -64,19 +64,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu_Opciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Opciones.Designer.cs">
+      <DependentUpon>Menu_Opciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Niños.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Niños.Designer.cs">
       <DependentUpon>Niños.cs</DependentUpon>
     </Compile>
+    <Compile Include="Niños_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niños_Menu.Designer.cs">
+      <DependentUpon>Niños_Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Opciones.resx">
+      <DependentUpon>Menu_Opciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Niños.resx">
       <DependentUpon>Niños.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niños_Menu.resx">
+      <DependentUpon>Niños_Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
