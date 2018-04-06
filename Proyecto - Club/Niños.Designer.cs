@@ -117,6 +117,8 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dg23 = new MetroFramework.Controls.MetroLabel();
             this.dg_dgrid_recoge = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dg22 = new MetroFramework.Controls.MetroLabel();
             this.dg_turno = new MetroFramework.Controls.MetroComboBox();
             this.dg20 = new MetroFramework.Controls.MetroLabel();
@@ -166,16 +168,6 @@
             this.dg_noMiembro = new MetroFramework.Controls.MetroTextBox();
             this.dg1 = new MetroFramework.Controls.MetroLabel();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
-<<<<<<< HEAD
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tab_es.SuspendLayout();
-            this.tab_dg.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_emergencia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_recoge)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dg_foto)).BeginInit();
-            this.metroTabControl1.SuspendLayout();
-=======
             this.metroTabPageNF1 = new MetroFramework.Controls.MetroTabPage();
             this.nf_bt1 = new MetroFramework.Controls.MetroButton();
             this.nf_txtb12 = new MetroFramework.Controls.MetroTextBox();
@@ -332,6 +324,11 @@
             this.dm_chb1 = new MetroFramework.Controls.MetroCheckBox();
             this.dm_txtb1 = new MetroFramework.Controls.MetroTextBox();
             this.dm_lb1 = new MetroFramework.Controls.MetroLabel();
+            this.tab_es.SuspendLayout();
+            this.tab_dg.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_emergencia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_recoge)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dg_foto)).BeginInit();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPageNF1.SuspendLayout();
             this.nf_gb1.SuspendLayout();
@@ -343,7 +340,6 @@
             this.nf_gb3.SuspendLayout();
             this.nf_gb2.SuspendLayout();
             this.metroTabPageDM.SuspendLayout();
->>>>>>> na-nf-dm
             this.SuspendLayout();
             // 
             // tab_es
@@ -434,7 +430,7 @@
             this.tab_es.HorizontalScrollbarSize = 10;
             this.tab_es.Location = new System.Drawing.Point(4, 38);
             this.tab_es.Name = "tab_es";
-            this.tab_es.Size = new System.Drawing.Size(1046, 772);
+            this.tab_es.Size = new System.Drawing.Size(1046, 758);
             this.tab_es.TabIndex = 1;
             this.tab_es.Text = "Estudio Socioeconómico";
             this.tab_es.VerticalScrollbarBarColor = true;
@@ -1795,7 +1791,7 @@
             this.tab_dg.HorizontalScrollbarSize = 10;
             this.tab_dg.Location = new System.Drawing.Point(4, 38);
             this.tab_dg.Name = "tab_dg";
-            this.tab_dg.Size = new System.Drawing.Size(1046, 772);
+            this.tab_dg.Size = new System.Drawing.Size(810, 685);
             this.tab_dg.TabIndex = 0;
             this.tab_dg.Text = "Datos Generales";
             this.tab_dg.VerticalScrollbarBarColor = true;
@@ -1858,6 +1854,23 @@
             this.dg_dgrid_recoge.Name = "dg_dgrid_recoge";
             this.dg_dgrid_recoge.Size = new System.Drawing.Size(539, 87);
             this.dg_dgrid_recoge.TabIndex = 26;
+            // 
+            // Column1
+            // 
+            this.Column1.Frozen = true;
+            this.Column1.HeaderText = "Nombre";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 350;
+            // 
+            // Column2
+            // 
+            this.Column2.Frozen = true;
+            this.Column2.HeaderText = "Parentesco";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Column2.Width = 150;
             // 
             // dg22
             // 
@@ -2392,7 +2405,7 @@
             // dg_fecha_nac
             // 
             this.dg_fecha_nac.Location = new System.Drawing.Point(3, 250);
-            this.dg_fecha_nac.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dg_fecha_nac.MinimumSize = new System.Drawing.Size(4, 29);
             this.dg_fecha_nac.Name = "dg_fecha_nac";
             this.dg_fecha_nac.Size = new System.Drawing.Size(300, 29);
             this.dg_fecha_nac.TabIndex = 7;
@@ -2535,7 +2548,7 @@
             // dg_fecha_inscripcion
             // 
             this.dg_fecha_inscripcion.Location = new System.Drawing.Point(850, 91);
-            this.dg_fecha_inscripcion.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dg_fecha_inscripcion.MinimumSize = new System.Drawing.Size(4, 29);
             this.dg_fecha_inscripcion.Name = "dg_fecha_inscripcion";
             this.dg_fecha_inscripcion.Size = new System.Drawing.Size(193, 29);
             this.dg_fecha_inscripcion.TabIndex = 3;
@@ -2592,40 +2605,15 @@
             // 
             // metroTabControl1
             // 
-<<<<<<< HEAD
             this.metroTabControl1.Controls.Add(this.tab_dg);
             this.metroTabControl1.Controls.Add(this.tab_es);
-            this.metroTabControl1.Location = new System.Drawing.Point(23, 63);
-            this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1054, 814);
-            this.metroTabControl1.TabIndex = 0;
-            this.metroTabControl1.UseSelectable = true;
-            // 
-            // Column1
-            // 
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "Nombre";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 350;
-            // 
-            // Column2
-            // 
-            this.Column2.Frozen = true;
-            this.Column2.HeaderText = "Parentesco";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Column2.Width = 150;
-=======
             this.metroTabControl1.Controls.Add(this.metroTabPageNF1);
             this.metroTabControl1.Controls.Add(this.metroTabPageNF2);
             this.metroTabControl1.Controls.Add(this.metroTabPageDM);
             this.metroTabControl1.Location = new System.Drawing.Point(23, 85);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 1;
-            this.metroTabControl1.Size = new System.Drawing.Size(818, 727);
+            this.metroTabControl1.Size = new System.Drawing.Size(1054, 800);
             this.metroTabControl1.TabIndex = 1;
             this.metroTabControl1.UseSelectable = true;
             // 
@@ -3030,7 +3018,7 @@
             // nf_dt2
             // 
             this.nf_dt2.Location = new System.Drawing.Point(583, 419);
-            this.nf_dt2.MinimumSize = new System.Drawing.Size(0, 29);
+            this.nf_dt2.MinimumSize = new System.Drawing.Size(4, 29);
             this.nf_dt2.Name = "nf_dt2";
             this.nf_dt2.Size = new System.Drawing.Size(130, 29);
             this.nf_dt2.TabIndex = 21;
@@ -4983,14 +4971,12 @@
             this.dm_lb1.Size = new System.Drawing.Size(449, 19);
             this.dm_lb1.TabIndex = 12;
             this.dm_lb1.Text = "Padece alguna alergía a alimentos, medicamentos, plantas u otros ¿Cuáles?";
->>>>>>> na-nf-dm
             // 
             // Niños
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1100, 900);
+            this.ClientSize = new System.Drawing.Size(1100, 895);
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños";
             this.Text = "Niños";
@@ -5001,12 +4987,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_emergencia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_recoge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dg_foto)).EndInit();
-            this.metroTabControl1.ResumeLayout(false);
-=======
-            this.ClientSize = new System.Drawing.Size(1100, 788);
-            this.Controls.Add(this.metroTabControl1);
-            this.Name = "Niños";
-            this.Text = "Niños";
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabPageNF1.ResumeLayout(false);
             this.metroTabPageNF1.PerformLayout();
@@ -5028,7 +5008,6 @@
             this.nf_gb2.PerformLayout();
             this.metroTabPageDM.ResumeLayout(false);
             this.metroTabPageDM.PerformLayout();
->>>>>>> na-nf-dm
             this.ResumeLayout(false);
 
         }
@@ -5172,11 +5151,9 @@
         private MetroFramework.Controls.MetroTextBox dg_noMiembro;
         private MetroFramework.Controls.MetroLabel dg1;
         private MetroFramework.Controls.MetroTabControl metroTabControl1;
-<<<<<<< HEAD
         private MetroFramework.Controls.MetroLabel es_40;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-=======
         private MetroFramework.Controls.MetroTabPage metroTabPageNF1;
         private MetroFramework.Controls.MetroButton nf_bt1;
         private MetroFramework.Controls.MetroTextBox nf_txtb12;
@@ -5333,6 +5310,5 @@
         private MetroFramework.Controls.MetroCheckBox dm_chb1;
         private MetroFramework.Controls.MetroTextBox dm_txtb1;
         private MetroFramework.Controls.MetroLabel dm_lb1;
->>>>>>> na-nf-dm
     }
 }
