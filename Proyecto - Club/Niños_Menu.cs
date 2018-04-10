@@ -24,5 +24,17 @@ namespace Proyecto___Club
             n.ShowDialog();
 
         }
+
+        private void Niños_Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Niños_Modificaciones n = new Niños_Modificaciones();
+            n.ShowDialog();
+        }
     }
 }

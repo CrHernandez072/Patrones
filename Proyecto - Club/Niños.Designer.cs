@@ -1791,7 +1791,7 @@
             this.tab_dg.HorizontalScrollbarSize = 10;
             this.tab_dg.Location = new System.Drawing.Point(4, 38);
             this.tab_dg.Name = "tab_dg";
-            this.tab_dg.Size = new System.Drawing.Size(810, 685);
+            this.tab_dg.Size = new System.Drawing.Size(1046, 758);
             this.tab_dg.TabIndex = 0;
             this.tab_dg.Text = "Datos Generales";
             this.tab_dg.VerticalScrollbarBarColor = true;
@@ -2405,7 +2405,7 @@
             // dg_fecha_nac
             // 
             this.dg_fecha_nac.Location = new System.Drawing.Point(3, 250);
-            this.dg_fecha_nac.MinimumSize = new System.Drawing.Size(4, 29);
+            this.dg_fecha_nac.MinimumSize = new System.Drawing.Size(0, 29);
             this.dg_fecha_nac.Name = "dg_fecha_nac";
             this.dg_fecha_nac.Size = new System.Drawing.Size(300, 29);
             this.dg_fecha_nac.TabIndex = 7;
@@ -2445,9 +2445,9 @@
             this.dg5.AutoSize = true;
             this.dg5.Location = new System.Drawing.Point(850, 209);
             this.dg5.Name = "dg5";
-            this.dg5.Size = new System.Drawing.Size(79, 19);
+            this.dg5.Size = new System.Drawing.Size(74, 19);
             this.dg5.TabIndex = 12;
-            this.dg5.Text = "Nombres(S)";
+            this.dg5.Text = "Nombre(S)";
             // 
             // dg_ap_mat
             // 
@@ -2548,7 +2548,7 @@
             // dg_fecha_inscripcion
             // 
             this.dg_fecha_inscripcion.Location = new System.Drawing.Point(850, 91);
-            this.dg_fecha_inscripcion.MinimumSize = new System.Drawing.Size(4, 29);
+            this.dg_fecha_inscripcion.MinimumSize = new System.Drawing.Size(0, 29);
             this.dg_fecha_inscripcion.Name = "dg_fecha_inscripcion";
             this.dg_fecha_inscripcion.Size = new System.Drawing.Size(193, 29);
             this.dg_fecha_inscripcion.TabIndex = 3;
@@ -2612,7 +2612,7 @@
             this.metroTabControl1.Controls.Add(this.metroTabPageDM);
             this.metroTabControl1.Location = new System.Drawing.Point(23, 85);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
+            this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(1054, 800);
             this.metroTabControl1.TabIndex = 1;
             this.metroTabControl1.UseSelectable = true;
@@ -2679,7 +2679,7 @@
             this.metroTabPageNF1.HorizontalScrollbarSize = 10;
             this.metroTabPageNF1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPageNF1.Name = "metroTabPageNF1";
-            this.metroTabPageNF1.Size = new System.Drawing.Size(810, 685);
+            this.metroTabPageNF1.Size = new System.Drawing.Size(1046, 758);
             this.metroTabPageNF1.TabIndex = 0;
             this.metroTabPageNF1.Text = "Núcleo Familiar";
             this.metroTabPageNF1.VerticalScrollbarBarColor = true;
@@ -3699,7 +3699,7 @@
             this.metroTabPageNF2.HorizontalScrollbarSize = 10;
             this.metroTabPageNF2.Location = new System.Drawing.Point(4, 38);
             this.metroTabPageNF2.Name = "metroTabPageNF2";
-            this.metroTabPageNF2.Size = new System.Drawing.Size(810, 685);
+            this.metroTabPageNF2.Size = new System.Drawing.Size(1046, 758);
             this.metroTabPageNF2.TabIndex = 1;
             this.metroTabPageNF2.Text = "Núcleo Familiar 2";
             this.metroTabPageNF2.VerticalScrollbarBarColor = true;
@@ -4204,7 +4204,7 @@
             this.metroTabPageDM.HorizontalScrollbarSize = 10;
             this.metroTabPageDM.Location = new System.Drawing.Point(4, 38);
             this.metroTabPageDM.Name = "metroTabPageDM";
-            this.metroTabPageDM.Size = new System.Drawing.Size(810, 685);
+            this.metroTabPageDM.Size = new System.Drawing.Size(1046, 758);
             this.metroTabPageDM.TabIndex = 2;
             this.metroTabPageDM.Text = "Datos Médicos";
             this.metroTabPageDM.VerticalScrollbarBarColor = true;
@@ -4449,7 +4449,7 @@
             // metroDateTime3
             // 
             this.metroDateTime3.Location = new System.Drawing.Point(607, 443);
-            this.metroDateTime3.MinimumSize = new System.Drawing.Size(4, 29);
+            this.metroDateTime3.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime3.Name = "metroDateTime3";
             this.metroDateTime3.Size = new System.Drawing.Size(200, 29);
             this.metroDateTime3.TabIndex = 24;
@@ -4976,7 +4976,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1100, 895);
+            this.ClientSize = new System.Drawing.Size(1100, 788);
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños";
             this.Text = "Niños";

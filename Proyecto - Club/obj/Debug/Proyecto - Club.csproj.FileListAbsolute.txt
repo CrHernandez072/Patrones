@@ -22,3 +22,20 @@ C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\P
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto - Club.csproj.GenerateResource.Cache
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Menu_Opciones.resources
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Menu.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\Proyecto - Club.exe.config
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\Proyecto - Club.exe
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\Proyecto - Club.pdb
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\MetroFramework.Design.dll
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\MetroFramework.dll
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.csprojResolveAssemblyReference.cache
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Form1.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Menu_Opciones.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Niños.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Menu.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Modificaciones.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Properties.Resources.resources
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.csproj.GenerateResource.Cache
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.exe
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.pdb

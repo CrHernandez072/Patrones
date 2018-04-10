@@ -51,6 +51,7 @@
             this.metroButton2.TabIndex = 1;
             this.metroButton2.Text = "Modificar";
             this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // metroButton3
             // 
@@ -73,6 +74,7 @@
             this.Style = MetroFramework.MetroColorStyle.Green;
             this.Text = "Niños";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
+            this.Load += new System.EventHandler(this.Niños_Menu_Load);
             this.ResumeLayout(false);
 
         }
