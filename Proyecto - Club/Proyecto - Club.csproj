@@ -82,6 +82,12 @@
     <Compile Include="Niños_Menu.Designer.cs">
       <DependentUpon>Niños_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Niños_Modificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niños_Modificaciones.Designer.cs">
+      <DependentUpon>Niños_Modificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Niños_Menu.resx">
       <DependentUpon>Niños_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niños_Modificaciones.resx">
+      <DependentUpon>Niños_Modificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
