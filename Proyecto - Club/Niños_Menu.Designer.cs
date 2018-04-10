@@ -75,6 +75,7 @@
             this.Style = MetroFramework.MetroColorStyle.Green;
             this.Text = "Niños";
             this.Theme = MetroFramework.MetroThemeStyle.Default;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Niños_Menu_FormClosed);
             this.Load += new System.EventHandler(this.Niños_Menu_Load);
             this.ResumeLayout(false);
 

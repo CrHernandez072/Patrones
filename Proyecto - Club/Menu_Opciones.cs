@@ -20,8 +20,13 @@ namespace Proyecto___Club
         private void metroTile1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Niños_Menu nm = new Niños_Menu();
+            Niños_Menu nm = new Niños_Menu(this);
             nm.ShowDialog();
+        }
+
+        private void Menu_Opciones_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -3474,7 +3474,7 @@
             // nf_dt1
             // 
             this.nf_dt1.Location = new System.Drawing.Point(583, 140);
-            this.nf_dt1.MinimumSize = new System.Drawing.Size(0, 29);
+            this.nf_dt1.MinimumSize = new System.Drawing.Size(4, 29);
             this.nf_dt1.Name = "nf_dt1";
             this.nf_dt1.Size = new System.Drawing.Size(130, 29);
             this.nf_dt1.TabIndex = 8;
@@ -4449,7 +4449,7 @@
             // metroDateTime3
             // 
             this.metroDateTime3.Location = new System.Drawing.Point(607, 443);
-            this.metroDateTime3.MinimumSize = new System.Drawing.Size(0, 29);
+            this.metroDateTime3.MinimumSize = new System.Drawing.Size(4, 29);
             this.metroDateTime3.Name = "metroDateTime3";
             this.metroDateTime3.Size = new System.Drawing.Size(200, 29);
             this.metroDateTime3.TabIndex = 24;
@@ -4980,6 +4980,8 @@
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños";
             this.Text = "Niños";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Niños_FormClosed);
+            this.Load += new System.EventHandler(this.Niños_Load);
             this.tab_es.ResumeLayout(false);
             this.tab_es.PerformLayout();
             this.tab_dg.ResumeLayout(false);

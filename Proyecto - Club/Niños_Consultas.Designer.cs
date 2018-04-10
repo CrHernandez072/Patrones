@@ -28,31 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.SuspendLayout();
-            // 
-            // metroTabControl1
-            // 
-            this.metroTabControl1.Location = new System.Drawing.Point(23, 63);
-            this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.Size = new System.Drawing.Size(818, 552);
-            this.metroTabControl1.TabIndex = 0;
-            this.metroTabControl1.UseSelectable = true;
             // 
             // Niños_Consultas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 638);
-            this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños_Consultas";
             this.Text = "Niños (Reportes)";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Niños_Consultas_FormClosed);
+            this.Load += new System.EventHandler(this.Niños_Consultas_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroTabControl metroTabControl1;
     }
 }

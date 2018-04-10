@@ -12,9 +12,32 @@ namespace Proyecto___Club
 {
     public partial class Niños_Modificaciones : MetroFramework.Forms.MetroForm
     {
-        public Niños_Modificaciones()
+
+        Niños_Menu menuNiños;
+
+
+        public Niños_Modificaciones(Niños_Menu menuNiños)
         {
+            this.menuNiños = menuNiños ;
             InitializeComponent();
+        }
+
+
+        private void Niños_Modificaciones_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Niños_Modificaciones_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            try
+            {
+                menuNiños.Show();
+            }
+            catch {
+
+                MessageBox.Show("Error: Utilice el constructor sobrecargado de la clase.");
+            }
         }
     }
 }

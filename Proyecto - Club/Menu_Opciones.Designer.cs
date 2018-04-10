@@ -54,6 +54,7 @@
             this.Controls.Add(this.metroTile1);
             this.Name = "Menu_Opciones";
             this.Text = "MENÚ";
+            this.Load += new System.EventHandler(this.Menu_Opciones_Load);
             this.ResumeLayout(false);
 
         }
