@@ -36,5 +36,12 @@ namespace Proyecto___Club
             Niños_Modificaciones n = new Niños_Modificaciones();
             n.ShowDialog();
         }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Niños_Consultas n = new Niños_Consultas();
+            n.ShowDialog();
+        }
     }
 }
