@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Niños_Modificaciones));
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.tab_dg = new MetroFramework.Controls.MetroTabPage();
             this.dg_btn_guardar = new MetroFramework.Controls.MetroButton();
@@ -325,6 +326,7 @@
             this.dm_txtb1 = new MetroFramework.Controls.MetroTextBox();
             this.dm_lb1 = new MetroFramework.Controls.MetroLabel();
             this.InfanteActualModif = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroTabControl1.SuspendLayout();
             this.tab_dg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_emergencia)).BeginInit();
@@ -341,6 +343,7 @@
             this.nf_gb3.SuspendLayout();
             this.nf_gb2.SuspendLayout();
             this.metroTabPageDM.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroTabControl1
@@ -4977,18 +4980,28 @@
             // 
             this.InfanteActualModif.AutoSize = true;
             this.InfanteActualModif.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.InfanteActualModif.Location = new System.Drawing.Point(562, 30);
+            this.InfanteActualModif.Location = new System.Drawing.Point(479, 38);
             this.InfanteActualModif.Name = "InfanteActualModif";
             this.InfanteActualModif.Size = new System.Drawing.Size(110, 19);
             this.InfanteActualModif.TabIndex = 38;
             this.InfanteActualModif.Text = "Modificando a:";
             this.InfanteActualModif.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(877, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox1.TabIndex = 60;
+            this.pictureBox1.TabStop = false;
+            // 
             // Niños_Modificaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 712);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.InfanteActualModif);
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños_Modificaciones";
@@ -5023,6 +5036,7 @@
             this.nf_gb2.PerformLayout();
             this.metroTabPageDM.ResumeLayout(false);
             this.metroTabPageDM.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5327,5 +5341,6 @@
         private MetroFramework.Controls.MetroTextBox dm_txtb1;
         private MetroFramework.Controls.MetroLabel dm_lb1;
         private MetroFramework.Controls.MetroLabel InfanteActualModif;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Niños));
             this.tab_es = new MetroFramework.Controls.MetroTabPage();
             this.es_40 = new MetroFramework.Controls.MetroLabel();
             this.es_noMiembro = new MetroFramework.Controls.MetroTextBox();
@@ -324,6 +325,7 @@
             this.dm_chb1 = new MetroFramework.Controls.MetroCheckBox();
             this.dm_txtb1 = new MetroFramework.Controls.MetroTextBox();
             this.dm_lb1 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tab_es.SuspendLayout();
             this.tab_dg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_dgrid_emergencia)).BeginInit();
@@ -340,6 +342,7 @@
             this.nf_gb3.SuspendLayout();
             this.nf_gb2.SuspendLayout();
             this.metroTabPageDM.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tab_es
@@ -4972,11 +4975,21 @@
             this.dm_lb1.TabIndex = 12;
             this.dm_lb1.Text = "Padece alguna alergía a alimentos, medicamentos, plantas u otros ¿Cuáles?";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1041, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox1.TabIndex = 60;
+            this.pictureBox1.TabStop = false;
+            // 
             // Niños
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 788);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños";
             this.Text = "Niños";
@@ -5010,6 +5023,7 @@
             this.nf_gb2.PerformLayout();
             this.metroTabPageDM.ResumeLayout(false);
             this.metroTabPageDM.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5312,5 +5326,6 @@
         private MetroFramework.Controls.MetroCheckBox dm_chb1;
         private MetroFramework.Controls.MetroTextBox dm_txtb1;
         private MetroFramework.Controls.MetroLabel dm_lb1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

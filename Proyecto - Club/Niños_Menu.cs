@@ -60,5 +60,12 @@ namespace Proyecto___Club
                 MessageBox.Show("Error: Utilice el constructor sobrecargado de la clase.");
             }
         }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Niños_Bajas n = new Niños_Bajas(this);
+            n.ShowDialog();
+        }
     }
 }

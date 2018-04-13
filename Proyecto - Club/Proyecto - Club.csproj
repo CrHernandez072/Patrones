@@ -76,6 +76,12 @@
     <Compile Include="Niños.Designer.cs">
       <DependentUpon>Niños.cs</DependentUpon>
     </Compile>
+    <Compile Include="Niños_Bajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niños_Bajas.Designer.cs">
+      <DependentUpon>Niños_Bajas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Niños_Consultas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Niños.resx">
       <DependentUpon>Niños.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niños_Bajas.resx">
+      <DependentUpon>Niños_Bajas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Niños_Consultas.resx">
       <DependentUpon>Niños_Consultas.cs</DependentUpon>
