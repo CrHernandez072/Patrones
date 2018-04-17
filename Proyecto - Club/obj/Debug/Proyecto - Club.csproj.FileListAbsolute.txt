@@ -39,5 +39,12 @@ C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.cspr
 C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.csproj.CoreCompileInputs.cache
 C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.exe
 C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto - Club.pdb
+<<<<<<< HEAD
 C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Consultas.resources
 C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Bajas.resources
+=======
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Consultas.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\obj\Debug\Proyecto___Club.Niños_Modificaciones.resources
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MySql.Data.dll
+C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MySql.Data.xml
+>>>>>>> reporte_cristian
