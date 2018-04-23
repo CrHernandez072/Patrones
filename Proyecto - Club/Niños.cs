@@ -13,23 +13,21 @@ namespace Proyecto___Club
 {
     public partial class Niños : MetroFramework.Forms.MetroForm
     {
-<<<<<<< HEAD
+
 
         Niños_Menu menuNiños;
-
+        cls_conexion miBD;
 
         public Niños(Niños_Menu menuNiños)
-=======
-        cls_conexion miBD = new cls_conexion();
+        { 
+         miBD = new cls_conexion();
 
-        public Niños()
->>>>>>> reporte_cristian
-        {
+        
             this.menuNiños = menuNiños;
             InitializeComponent();
         }
 
-<<<<<<< HEAD
+
         private void Niños_Load(object sender, EventArgs e)
         {
 
@@ -49,7 +47,7 @@ namespace Proyecto___Club
                 MessageBox.Show("Error: Utilice el constructor sobrecargado de la clase.");
             }
         }
-=======
+
         private void dg_btn_guardar_Click(object sender, EventArgs e)
         {
             try
@@ -176,6 +174,6 @@ namespace Proyecto___Club
             dg_fecha_inscripcion.Text = "";
 
         }
->>>>>>> reporte_cristian
+
     }
 }

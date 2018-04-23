@@ -13,17 +13,22 @@ namespace Proyecto___Club
 {
     public partial class Niños_Consultas : MetroFramework.Forms.MetroForm
     {
-<<<<<<< HEAD
+
 
         Niños_Menu menuNiños;
+        cls_conexion miBD;
 
+        public Niños_Consultas(Niños_Menu menuNiños) { 
 
-        public Niños_Consultas(Niños_Menu menuNiños)
-=======
-        cls_conexion miBD = new cls_conexion();
+        miBD = new cls_conexion();
+            this.menuNiños = menuNiños;
+            InitializeComponent();
+            ocultar_paneles_busqueda();
+        }
+
 
         public Niños_Consultas()
->>>>>>> reporte_cristian
+
         {
             this.menuNiños = menuNiños;
             InitializeComponent();

@@ -320,9 +320,9 @@
             this.dm_chb1 = new MetroFramework.Controls.MetroCheckBox();
             this.dm_txtb1 = new MetroFramework.Controls.MetroTextBox();
             this.dm_lb1 = new MetroFramework.Controls.MetroLabel();
-<<<<<<< HEAD
+
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-=======
+
             this.dg_codPost = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
@@ -343,7 +343,7 @@
             this.dg_aviso_emergencia1 = new MetroFramework.Controls.MetroTextBox();
             this.dg_aviso_emergencia2 = new MetroFramework.Controls.MetroTextBox();
             this.dg_aviso_emergencia3 = new MetroFramework.Controls.MetroTextBox();
->>>>>>> reporte_cristian
+
             this.tab_es.SuspendLayout();
             this.tab_dg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_foto)).BeginInit();
@@ -4965,7 +4965,7 @@
             this.dm_lb1.TabIndex = 12;
             this.dm_lb1.Text = "Padece alguna alergía a alimentos, medicamentos, plantas u otros ¿Cuáles?";
             // 
-<<<<<<< HEAD
+
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -4974,7 +4974,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(52, 52);
             this.pictureBox1.TabIndex = 60;
             this.pictureBox1.TabStop = false;
-=======
+
             // dg_codPost
             // 
             // 
@@ -5388,18 +5388,17 @@
             this.dg_aviso_emergencia3.WaterMark = "Nombre y telefono";
             this.dg_aviso_emergencia3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.dg_aviso_emergencia3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
->>>>>>> reporte_cristian
             // 
             // Niños
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(1100, 788);
             this.Controls.Add(this.pictureBox1);
-=======
+
             this.ClientSize = new System.Drawing.Size(1116, 911);
->>>>>>> reporte_cristian
+
             this.Controls.Add(this.metroTabControl1);
             this.Name = "Niños";
             this.Text = "Niños";
@@ -5729,9 +5728,9 @@
         private MetroFramework.Controls.MetroCheckBox dm_chb1;
         private MetroFramework.Controls.MetroTextBox dm_txtb1;
         private MetroFramework.Controls.MetroLabel dm_lb1;
-<<<<<<< HEAD
+
         private System.Windows.Forms.PictureBox pictureBox1;
-=======
+
         private MetroFramework.Controls.MetroTextBox dg_codPost;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroTextBox dg_aviso_emergencia3;
@@ -5752,6 +5751,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel2;
->>>>>>> reporte_cristian
+
     }
 }

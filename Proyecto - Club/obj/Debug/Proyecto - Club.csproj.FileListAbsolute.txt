@@ -48,3 +48,4 @@ C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\P
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MySql.Data.dll
 C:\Users\Cristian\Documents\ITT Semestre 7\Patrones de diseño\Proyecto - Club\Proyecto - Club\bin\Debug\MySql.Data.xml
 >>>>>>> reporte_cristian
+C:\Users\Alexis\Proyecto\Patrones\Proyecto - Club\bin\Debug\MySql.Data.xml
