@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Niños_Consultas));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-=======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -63,19 +61,16 @@
             this.panel_nombre.SuspendLayout();
             this.panel_edad.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_consulta_niños)).BeginInit();
->>>>>>> reporte_cristian
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-<<<<<<< HEAD
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(800, 38);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 52);
             this.pictureBox1.TabIndex = 61;
             this.pictureBox1.TabStop = false;
-=======
             this.metroTabControl1.Controls.Add(this.metroTabPage1);
             this.metroTabControl1.Location = new System.Drawing.Point(23, 63);
             this.metroTabControl1.Name = "metroTabControl1";
@@ -83,7 +78,6 @@
             this.metroTabControl1.Size = new System.Drawing.Size(818, 552);
             this.metroTabControl1.TabIndex = 0;
             this.metroTabControl1.UseSelectable = true;
->>>>>>> reporte_cristian
             // 
             // metroTabPage1
             // 
@@ -460,11 +454,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Niños_Consultas";
             this.Text = "Niños (Reportes)";
-<<<<<<< HEAD
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Niños_Consultas_FormClosed);
             this.Load += new System.EventHandler(this.Niños_Consultas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-=======
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabPage1.ResumeLayout(false);
             this.metroTabPage1.PerformLayout();
@@ -473,16 +465,12 @@
             this.panel_nombre.ResumeLayout(false);
             this.panel_edad.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grid_consulta_niños)).EndInit();
->>>>>>> reporte_cristian
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox1;
-=======
         private MetroFramework.Controls.MetroTabControl metroTabControl1;
         private MetroFramework.Controls.MetroTabPage metroTabPage1;
         private MetroFramework.Controls.MetroLabel metroLabel1;
@@ -503,6 +491,5 @@
         private MetroFramework.Controls.MetroGrid grid_consulta_niños;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
->>>>>>> reporte_cristian
     }
 }

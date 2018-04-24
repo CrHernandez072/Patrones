@@ -26,7 +26,7 @@ namespace Proyecto___Club
         private void metroButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Niños n = new Niños(this);
+            Niños n = new Niños();
             n.ShowDialog();
 
         }
@@ -46,7 +46,7 @@ namespace Proyecto___Club
         private void metroButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Niños_Consultas n = new Niños_Consultas(this);
+            Niños_Consultas n = new Niños_Consultas();
             n.ShowDialog();
         }
 

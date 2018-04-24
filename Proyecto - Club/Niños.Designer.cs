@@ -112,6 +112,26 @@
             this.es_3 = new MetroFramework.Controls.MetroLabel();
             this.es2 = new MetroFramework.Controls.MetroLabel();
             this.tab_dg = new MetroFramework.Controls.MetroTabPage();
+            this.dg_aviso_emergencia3 = new MetroFramework.Controls.MetroTextBox();
+            this.dg_aviso_emergencia2 = new MetroFramework.Controls.MetroTextBox();
+            this.dg_aviso_emergencia1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.dg_parent_recoge3 = new MetroFramework.Controls.MetroTextBox();
+            this.dg_recoge3_nino = new MetroFramework.Controls.MetroTextBox();
+            this.dg_parent_recoge2 = new MetroFramework.Controls.MetroTextBox();
+            this.dg_recoge2_nino = new MetroFramework.Controls.MetroTextBox();
+            this.dg_parent_recoge1 = new MetroFramework.Controls.MetroTextBox();
+            this.dg_recoge1_nino = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.dg_codPost = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.dg_btn_guardar = new MetroFramework.Controls.MetroButton();
             this.dg24 = new MetroFramework.Controls.MetroLabel();
             this.dg23 = new MetroFramework.Controls.MetroLabel();
@@ -320,30 +340,7 @@
             this.dm_chb1 = new MetroFramework.Controls.MetroCheckBox();
             this.dm_txtb1 = new MetroFramework.Controls.MetroTextBox();
             this.dm_lb1 = new MetroFramework.Controls.MetroLabel();
-<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-=======
-            this.dg_codPost = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.dg_recoge1_nino = new MetroFramework.Controls.MetroTextBox();
-            this.dg_parent_recoge1 = new MetroFramework.Controls.MetroTextBox();
-            this.dg_recoge2_nino = new MetroFramework.Controls.MetroTextBox();
-            this.dg_parent_recoge2 = new MetroFramework.Controls.MetroTextBox();
-            this.dg_recoge3_nino = new MetroFramework.Controls.MetroTextBox();
-            this.dg_parent_recoge3 = new MetroFramework.Controls.MetroTextBox();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.dg_aviso_emergencia1 = new MetroFramework.Controls.MetroTextBox();
-            this.dg_aviso_emergencia2 = new MetroFramework.Controls.MetroTextBox();
-            this.dg_aviso_emergencia3 = new MetroFramework.Controls.MetroTextBox();
->>>>>>> reporte_cristian
             this.tab_es.SuspendLayout();
             this.tab_dg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_foto)).BeginInit();
@@ -1835,6 +1832,420 @@
             this.tab_dg.VerticalScrollbarHighlightOnWheel = false;
             this.tab_dg.VerticalScrollbarSize = 15;
             // 
+            // dg_aviso_emergencia3
+            // 
+            // 
+            // 
+            // 
+            this.dg_aviso_emergencia3.CustomButton.Image = null;
+            this.dg_aviso_emergencia3.CustomButton.Location = new System.Drawing.Point(214, 1);
+            this.dg_aviso_emergencia3.CustomButton.Name = "";
+            this.dg_aviso_emergencia3.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_aviso_emergencia3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_aviso_emergencia3.CustomButton.TabIndex = 1;
+            this.dg_aviso_emergencia3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_aviso_emergencia3.CustomButton.UseSelectable = true;
+            this.dg_aviso_emergencia3.CustomButton.Visible = false;
+            this.dg_aviso_emergencia3.Lines = new string[] {
+        " "};
+            this.dg_aviso_emergencia3.Location = new System.Drawing.Point(670, 707);
+            this.dg_aviso_emergencia3.MaxLength = 32767;
+            this.dg_aviso_emergencia3.Name = "dg_aviso_emergencia3";
+            this.dg_aviso_emergencia3.PasswordChar = '\0';
+            this.dg_aviso_emergencia3.PromptText = "Nombre y telefono";
+            this.dg_aviso_emergencia3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_aviso_emergencia3.SelectedText = "";
+            this.dg_aviso_emergencia3.SelectionLength = 0;
+            this.dg_aviso_emergencia3.SelectionStart = 0;
+            this.dg_aviso_emergencia3.ShortcutsEnabled = true;
+            this.dg_aviso_emergencia3.Size = new System.Drawing.Size(236, 23);
+            this.dg_aviso_emergencia3.TabIndex = 82;
+            this.dg_aviso_emergencia3.Text = " ";
+            this.dg_aviso_emergencia3.UseSelectable = true;
+            this.dg_aviso_emergencia3.WaterMark = "Nombre y telefono";
+            this.dg_aviso_emergencia3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_aviso_emergencia3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_aviso_emergencia2
+            // 
+            // 
+            // 
+            // 
+            this.dg_aviso_emergencia2.CustomButton.Image = null;
+            this.dg_aviso_emergencia2.CustomButton.Location = new System.Drawing.Point(214, 1);
+            this.dg_aviso_emergencia2.CustomButton.Name = "";
+            this.dg_aviso_emergencia2.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_aviso_emergencia2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_aviso_emergencia2.CustomButton.TabIndex = 1;
+            this.dg_aviso_emergencia2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_aviso_emergencia2.CustomButton.UseSelectable = true;
+            this.dg_aviso_emergencia2.CustomButton.Visible = false;
+            this.dg_aviso_emergencia2.Lines = new string[] {
+        " "};
+            this.dg_aviso_emergencia2.Location = new System.Drawing.Point(668, 674);
+            this.dg_aviso_emergencia2.MaxLength = 32767;
+            this.dg_aviso_emergencia2.Name = "dg_aviso_emergencia2";
+            this.dg_aviso_emergencia2.PasswordChar = '\0';
+            this.dg_aviso_emergencia2.PromptText = "Nombre y telefono";
+            this.dg_aviso_emergencia2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_aviso_emergencia2.SelectedText = "";
+            this.dg_aviso_emergencia2.SelectionLength = 0;
+            this.dg_aviso_emergencia2.SelectionStart = 0;
+            this.dg_aviso_emergencia2.ShortcutsEnabled = true;
+            this.dg_aviso_emergencia2.Size = new System.Drawing.Size(236, 23);
+            this.dg_aviso_emergencia2.TabIndex = 81;
+            this.dg_aviso_emergencia2.Text = " ";
+            this.dg_aviso_emergencia2.UseSelectable = true;
+            this.dg_aviso_emergencia2.WaterMark = "Nombre y telefono";
+            this.dg_aviso_emergencia2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_aviso_emergencia2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_aviso_emergencia1
+            // 
+            // 
+            // 
+            // 
+            this.dg_aviso_emergencia1.CustomButton.Image = null;
+            this.dg_aviso_emergencia1.CustomButton.Location = new System.Drawing.Point(214, 1);
+            this.dg_aviso_emergencia1.CustomButton.Name = "";
+            this.dg_aviso_emergencia1.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_aviso_emergencia1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_aviso_emergencia1.CustomButton.TabIndex = 1;
+            this.dg_aviso_emergencia1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_aviso_emergencia1.CustomButton.UseSelectable = true;
+            this.dg_aviso_emergencia1.CustomButton.Visible = false;
+            this.dg_aviso_emergencia1.Lines = new string[] {
+        " "};
+            this.dg_aviso_emergencia1.Location = new System.Drawing.Point(668, 643);
+            this.dg_aviso_emergencia1.MaxLength = 32767;
+            this.dg_aviso_emergencia1.Name = "dg_aviso_emergencia1";
+            this.dg_aviso_emergencia1.PasswordChar = '\0';
+            this.dg_aviso_emergencia1.PromptText = "Nombre y telefono";
+            this.dg_aviso_emergencia1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_aviso_emergencia1.SelectedText = "";
+            this.dg_aviso_emergencia1.SelectionLength = 0;
+            this.dg_aviso_emergencia1.SelectionStart = 0;
+            this.dg_aviso_emergencia1.ShortcutsEnabled = true;
+            this.dg_aviso_emergencia1.Size = new System.Drawing.Size(236, 23);
+            this.dg_aviso_emergencia1.TabIndex = 80;
+            this.dg_aviso_emergencia1.Text = " ";
+            this.dg_aviso_emergencia1.UseSelectable = true;
+            this.dg_aviso_emergencia1.WaterMark = "Nombre y telefono";
+            this.dg_aviso_emergencia1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_aviso_emergencia1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(588, 707);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(76, 19);
+            this.metroLabel10.TabIndex = 79;
+            this.metroLabel10.Text = "Contacto 3:";
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.Location = new System.Drawing.Point(588, 674);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(76, 19);
+            this.metroLabel9.TabIndex = 78;
+            this.metroLabel9.Text = "Contacto 2:";
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(588, 643);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(74, 19);
+            this.metroLabel8.TabIndex = 77;
+            this.metroLabel8.Text = "Contacto 1:";
+            // 
+            // dg_parent_recoge3
+            // 
+            // 
+            // 
+            // 
+            this.dg_parent_recoge3.CustomButton.Image = null;
+            this.dg_parent_recoge3.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_parent_recoge3.CustomButton.Name = "";
+            this.dg_parent_recoge3.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_parent_recoge3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_parent_recoge3.CustomButton.TabIndex = 1;
+            this.dg_parent_recoge3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_parent_recoge3.CustomButton.UseSelectable = true;
+            this.dg_parent_recoge3.CustomButton.Visible = false;
+            this.dg_parent_recoge3.Lines = new string[] {
+        " "};
+            this.dg_parent_recoge3.Location = new System.Drawing.Point(316, 707);
+            this.dg_parent_recoge3.MaxLength = 32767;
+            this.dg_parent_recoge3.Name = "dg_parent_recoge3";
+            this.dg_parent_recoge3.PasswordChar = '\0';
+            this.dg_parent_recoge3.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_parent_recoge3.SelectedText = "";
+            this.dg_parent_recoge3.SelectionLength = 0;
+            this.dg_parent_recoge3.SelectionStart = 0;
+            this.dg_parent_recoge3.ShortcutsEnabled = true;
+            this.dg_parent_recoge3.Size = new System.Drawing.Size(156, 23);
+            this.dg_parent_recoge3.TabIndex = 76;
+            this.dg_parent_recoge3.Text = " ";
+            this.dg_parent_recoge3.UseSelectable = true;
+            this.dg_parent_recoge3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_parent_recoge3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_recoge3_nino
+            // 
+            // 
+            // 
+            // 
+            this.dg_recoge3_nino.CustomButton.Image = null;
+            this.dg_recoge3_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_recoge3_nino.CustomButton.Name = "";
+            this.dg_recoge3_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_recoge3_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_recoge3_nino.CustomButton.TabIndex = 1;
+            this.dg_recoge3_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_recoge3_nino.CustomButton.UseSelectable = true;
+            this.dg_recoge3_nino.CustomButton.Visible = false;
+            this.dg_recoge3_nino.Lines = new string[] {
+        " "};
+            this.dg_recoge3_nino.Location = new System.Drawing.Point(73, 707);
+            this.dg_recoge3_nino.MaxLength = 32767;
+            this.dg_recoge3_nino.Name = "dg_recoge3_nino";
+            this.dg_recoge3_nino.PasswordChar = '\0';
+            this.dg_recoge3_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_recoge3_nino.SelectedText = "";
+            this.dg_recoge3_nino.SelectionLength = 0;
+            this.dg_recoge3_nino.SelectionStart = 0;
+            this.dg_recoge3_nino.ShortcutsEnabled = true;
+            this.dg_recoge3_nino.Size = new System.Drawing.Size(156, 23);
+            this.dg_recoge3_nino.TabIndex = 75;
+            this.dg_recoge3_nino.Text = " ";
+            this.dg_recoge3_nino.UseSelectable = true;
+            this.dg_recoge3_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_recoge3_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_parent_recoge2
+            // 
+            // 
+            // 
+            // 
+            this.dg_parent_recoge2.CustomButton.Image = null;
+            this.dg_parent_recoge2.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_parent_recoge2.CustomButton.Name = "";
+            this.dg_parent_recoge2.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_parent_recoge2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_parent_recoge2.CustomButton.TabIndex = 1;
+            this.dg_parent_recoge2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_parent_recoge2.CustomButton.UseSelectable = true;
+            this.dg_parent_recoge2.CustomButton.Visible = false;
+            this.dg_parent_recoge2.Lines = new string[] {
+        " "};
+            this.dg_parent_recoge2.Location = new System.Drawing.Point(316, 672);
+            this.dg_parent_recoge2.MaxLength = 32767;
+            this.dg_parent_recoge2.Name = "dg_parent_recoge2";
+            this.dg_parent_recoge2.PasswordChar = '\0';
+            this.dg_parent_recoge2.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_parent_recoge2.SelectedText = "";
+            this.dg_parent_recoge2.SelectionLength = 0;
+            this.dg_parent_recoge2.SelectionStart = 0;
+            this.dg_parent_recoge2.ShortcutsEnabled = true;
+            this.dg_parent_recoge2.Size = new System.Drawing.Size(156, 23);
+            this.dg_parent_recoge2.TabIndex = 74;
+            this.dg_parent_recoge2.Text = " ";
+            this.dg_parent_recoge2.UseSelectable = true;
+            this.dg_parent_recoge2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_parent_recoge2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_recoge2_nino
+            // 
+            // 
+            // 
+            // 
+            this.dg_recoge2_nino.CustomButton.Image = null;
+            this.dg_recoge2_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_recoge2_nino.CustomButton.Name = "";
+            this.dg_recoge2_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_recoge2_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_recoge2_nino.CustomButton.TabIndex = 1;
+            this.dg_recoge2_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_recoge2_nino.CustomButton.UseSelectable = true;
+            this.dg_recoge2_nino.CustomButton.Visible = false;
+            this.dg_recoge2_nino.Lines = new string[] {
+        " "};
+            this.dg_recoge2_nino.Location = new System.Drawing.Point(73, 674);
+            this.dg_recoge2_nino.MaxLength = 32767;
+            this.dg_recoge2_nino.Name = "dg_recoge2_nino";
+            this.dg_recoge2_nino.PasswordChar = '\0';
+            this.dg_recoge2_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_recoge2_nino.SelectedText = "";
+            this.dg_recoge2_nino.SelectionLength = 0;
+            this.dg_recoge2_nino.SelectionStart = 0;
+            this.dg_recoge2_nino.ShortcutsEnabled = true;
+            this.dg_recoge2_nino.Size = new System.Drawing.Size(156, 23);
+            this.dg_recoge2_nino.TabIndex = 73;
+            this.dg_recoge2_nino.Text = " ";
+            this.dg_recoge2_nino.UseSelectable = true;
+            this.dg_recoge2_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_recoge2_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_parent_recoge1
+            // 
+            // 
+            // 
+            // 
+            this.dg_parent_recoge1.CustomButton.Image = null;
+            this.dg_parent_recoge1.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_parent_recoge1.CustomButton.Name = "";
+            this.dg_parent_recoge1.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_parent_recoge1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_parent_recoge1.CustomButton.TabIndex = 1;
+            this.dg_parent_recoge1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_parent_recoge1.CustomButton.UseSelectable = true;
+            this.dg_parent_recoge1.CustomButton.Visible = false;
+            this.dg_parent_recoge1.Lines = new string[] {
+        " "};
+            this.dg_parent_recoge1.Location = new System.Drawing.Point(316, 643);
+            this.dg_parent_recoge1.MaxLength = 32767;
+            this.dg_parent_recoge1.Name = "dg_parent_recoge1";
+            this.dg_parent_recoge1.PasswordChar = '\0';
+            this.dg_parent_recoge1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_parent_recoge1.SelectedText = "";
+            this.dg_parent_recoge1.SelectionLength = 0;
+            this.dg_parent_recoge1.SelectionStart = 0;
+            this.dg_parent_recoge1.ShortcutsEnabled = true;
+            this.dg_parent_recoge1.Size = new System.Drawing.Size(156, 23);
+            this.dg_parent_recoge1.TabIndex = 72;
+            this.dg_parent_recoge1.Text = " ";
+            this.dg_parent_recoge1.UseSelectable = true;
+            this.dg_parent_recoge1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_parent_recoge1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // dg_recoge1_nino
+            // 
+            // 
+            // 
+            // 
+            this.dg_recoge1_nino.CustomButton.Image = null;
+            this.dg_recoge1_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
+            this.dg_recoge1_nino.CustomButton.Name = "";
+            this.dg_recoge1_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.dg_recoge1_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_recoge1_nino.CustomButton.TabIndex = 1;
+            this.dg_recoge1_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_recoge1_nino.CustomButton.UseSelectable = true;
+            this.dg_recoge1_nino.CustomButton.Visible = false;
+            this.dg_recoge1_nino.Lines = new string[] {
+        " "};
+            this.dg_recoge1_nino.Location = new System.Drawing.Point(73, 643);
+            this.dg_recoge1_nino.MaxLength = 32767;
+            this.dg_recoge1_nino.Name = "dg_recoge1_nino";
+            this.dg_recoge1_nino.PasswordChar = '\0';
+            this.dg_recoge1_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_recoge1_nino.SelectedText = "";
+            this.dg_recoge1_nino.SelectionLength = 0;
+            this.dg_recoge1_nino.SelectionStart = 0;
+            this.dg_recoge1_nino.ShortcutsEnabled = true;
+            this.dg_recoge1_nino.Size = new System.Drawing.Size(156, 23);
+            this.dg_recoge1_nino.TabIndex = 71;
+            this.dg_recoge1_nino.Text = " ";
+            this.dg_recoge1_nino.UseSelectable = true;
+            this.dg_recoge1_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_recoge1_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel5
+            // 
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.Location = new System.Drawing.Point(235, 707);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel5.TabIndex = 70;
+            this.metroLabel5.Text = "Parentesco:";
+            // 
+            // metroLabel6
+            // 
+            this.metroLabel6.AutoSize = true;
+            this.metroLabel6.Location = new System.Drawing.Point(235, 674);
+            this.metroLabel6.Name = "metroLabel6";
+            this.metroLabel6.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel6.TabIndex = 69;
+            this.metroLabel6.Text = "Parentesco:";
+            // 
+            // metroLabel7
+            // 
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(235, 643);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(75, 19);
+            this.metroLabel7.TabIndex = 68;
+            this.metroLabel7.Text = "Parentesco:";
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(10, 707);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(62, 19);
+            this.metroLabel4.TabIndex = 67;
+            this.metroLabel4.Text = "Nombre:";
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(10, 674);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(62, 19);
+            this.metroLabel3.TabIndex = 66;
+            this.metroLabel3.Text = "Nombre:";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(10, 643);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(62, 19);
+            this.metroLabel2.TabIndex = 65;
+            this.metroLabel2.Text = "Nombre:";
+            // 
+            // dg_codPost
+            // 
+            // 
+            // 
+            // 
+            this.dg_codPost.CustomButton.Image = null;
+            this.dg_codPost.CustomButton.Location = new System.Drawing.Point(32, 1);
+            this.dg_codPost.CustomButton.Name = "";
+            this.dg_codPost.CustomButton.Size = new System.Drawing.Size(27, 27);
+            this.dg_codPost.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.dg_codPost.CustomButton.TabIndex = 1;
+            this.dg_codPost.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.dg_codPost.CustomButton.UseSelectable = true;
+            this.dg_codPost.CustomButton.Visible = false;
+            this.dg_codPost.Lines = new string[0];
+            this.dg_codPost.Location = new System.Drawing.Point(326, 484);
+            this.dg_codPost.MaxLength = 32767;
+            this.dg_codPost.Name = "dg_codPost";
+            this.dg_codPost.PasswordChar = '\0';
+            this.dg_codPost.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dg_codPost.SelectedText = "";
+            this.dg_codPost.SelectionLength = 0;
+            this.dg_codPost.SelectionStart = 0;
+            this.dg_codPost.ShortcutsEnabled = true;
+            this.dg_codPost.Size = new System.Drawing.Size(60, 29);
+            this.dg_codPost.TabIndex = 57;
+            this.dg_codPost.UseSelectable = true;
+            this.dg_codPost.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.dg_codPost.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(342, 516);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(29, 19);
+            this.metroLabel1.TabIndex = 58;
+            this.metroLabel1.Text = "C.P";
+            // 
             // dg_btn_guardar
             // 
             this.dg_btn_guardar.Location = new System.Drawing.Point(934, 643);
@@ -1843,7 +2254,6 @@
             this.dg_btn_guardar.TabIndex = 28;
             this.dg_btn_guardar.Text = "Guardar datos";
             this.dg_btn_guardar.UseSelectable = true;
-            this.dg_btn_guardar.Click += new System.EventHandler(this.dg_btn_guardar_Click);
             // 
             // dg24
             // 
@@ -4965,7 +5375,6 @@
             this.dm_lb1.TabIndex = 12;
             this.dm_lb1.Text = "Padece alguna alergía a alimentos, medicamentos, plantas u otros ¿Cuáles?";
             // 
-<<<<<<< HEAD
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -4974,437 +5383,13 @@
             this.pictureBox1.Size = new System.Drawing.Size(52, 52);
             this.pictureBox1.TabIndex = 60;
             this.pictureBox1.TabStop = false;
-=======
-            // dg_codPost
-            // 
-            // 
-            // 
-            // 
-            this.dg_codPost.CustomButton.Image = null;
-            this.dg_codPost.CustomButton.Location = new System.Drawing.Point(32, 1);
-            this.dg_codPost.CustomButton.Name = "";
-            this.dg_codPost.CustomButton.Size = new System.Drawing.Size(27, 27);
-            this.dg_codPost.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_codPost.CustomButton.TabIndex = 1;
-            this.dg_codPost.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_codPost.CustomButton.UseSelectable = true;
-            this.dg_codPost.CustomButton.Visible = false;
-            this.dg_codPost.Lines = new string[0];
-            this.dg_codPost.Location = new System.Drawing.Point(326, 484);
-            this.dg_codPost.MaxLength = 32767;
-            this.dg_codPost.Name = "dg_codPost";
-            this.dg_codPost.PasswordChar = '\0';
-            this.dg_codPost.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_codPost.SelectedText = "";
-            this.dg_codPost.SelectionLength = 0;
-            this.dg_codPost.SelectionStart = 0;
-            this.dg_codPost.ShortcutsEnabled = true;
-            this.dg_codPost.Size = new System.Drawing.Size(60, 29);
-            this.dg_codPost.TabIndex = 57;
-            this.dg_codPost.UseSelectable = true;
-            this.dg_codPost.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_codPost.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroLabel1
-            // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(342, 516);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(29, 19);
-            this.metroLabel1.TabIndex = 58;
-            this.metroLabel1.Text = "C.P";
-            // 
-            // metroLabel5
-            // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(235, 707);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(75, 19);
-            this.metroLabel5.TabIndex = 70;
-            this.metroLabel5.Text = "Parentesco:";
-            // 
-            // metroLabel6
-            // 
-            this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(235, 674);
-            this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(75, 19);
-            this.metroLabel6.TabIndex = 69;
-            this.metroLabel6.Text = "Parentesco:";
-            // 
-            // metroLabel7
-            // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(235, 643);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(75, 19);
-            this.metroLabel7.TabIndex = 68;
-            this.metroLabel7.Text = "Parentesco:";
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(10, 707);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(62, 19);
-            this.metroLabel4.TabIndex = 67;
-            this.metroLabel4.Text = "Nombre:";
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(10, 674);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(62, 19);
-            this.metroLabel3.TabIndex = 66;
-            this.metroLabel3.Text = "Nombre:";
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(10, 643);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(62, 19);
-            this.metroLabel2.TabIndex = 65;
-            this.metroLabel2.Text = "Nombre:";
-            // 
-            // dg_recoge1_nino
-            // 
-            // 
-            // 
-            // 
-            this.dg_recoge1_nino.CustomButton.Image = null;
-            this.dg_recoge1_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_recoge1_nino.CustomButton.Name = "";
-            this.dg_recoge1_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_recoge1_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_recoge1_nino.CustomButton.TabIndex = 1;
-            this.dg_recoge1_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_recoge1_nino.CustomButton.UseSelectable = true;
-            this.dg_recoge1_nino.CustomButton.Visible = false;
-            this.dg_recoge1_nino.Lines = new string[] {
-        " "};
-            this.dg_recoge1_nino.Location = new System.Drawing.Point(73, 643);
-            this.dg_recoge1_nino.MaxLength = 32767;
-            this.dg_recoge1_nino.Name = "dg_recoge1_nino";
-            this.dg_recoge1_nino.PasswordChar = '\0';
-            this.dg_recoge1_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_recoge1_nino.SelectedText = "";
-            this.dg_recoge1_nino.SelectionLength = 0;
-            this.dg_recoge1_nino.SelectionStart = 0;
-            this.dg_recoge1_nino.ShortcutsEnabled = true;
-            this.dg_recoge1_nino.Size = new System.Drawing.Size(156, 23);
-            this.dg_recoge1_nino.TabIndex = 71;
-            this.dg_recoge1_nino.Text = " ";
-            this.dg_recoge1_nino.UseSelectable = true;
-            this.dg_recoge1_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_recoge1_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_parent_recoge1
-            // 
-            // 
-            // 
-            // 
-            this.dg_parent_recoge1.CustomButton.Image = null;
-            this.dg_parent_recoge1.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_parent_recoge1.CustomButton.Name = "";
-            this.dg_parent_recoge1.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_parent_recoge1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_parent_recoge1.CustomButton.TabIndex = 1;
-            this.dg_parent_recoge1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_parent_recoge1.CustomButton.UseSelectable = true;
-            this.dg_parent_recoge1.CustomButton.Visible = false;
-            this.dg_parent_recoge1.Lines = new string[] {
-        " "};
-            this.dg_parent_recoge1.Location = new System.Drawing.Point(316, 643);
-            this.dg_parent_recoge1.MaxLength = 32767;
-            this.dg_parent_recoge1.Name = "dg_parent_recoge1";
-            this.dg_parent_recoge1.PasswordChar = '\0';
-            this.dg_parent_recoge1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_parent_recoge1.SelectedText = "";
-            this.dg_parent_recoge1.SelectionLength = 0;
-            this.dg_parent_recoge1.SelectionStart = 0;
-            this.dg_parent_recoge1.ShortcutsEnabled = true;
-            this.dg_parent_recoge1.Size = new System.Drawing.Size(156, 23);
-            this.dg_parent_recoge1.TabIndex = 72;
-            this.dg_parent_recoge1.Text = " ";
-            this.dg_parent_recoge1.UseSelectable = true;
-            this.dg_parent_recoge1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_parent_recoge1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_recoge2_nino
-            // 
-            // 
-            // 
-            // 
-            this.dg_recoge2_nino.CustomButton.Image = null;
-            this.dg_recoge2_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_recoge2_nino.CustomButton.Name = "";
-            this.dg_recoge2_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_recoge2_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_recoge2_nino.CustomButton.TabIndex = 1;
-            this.dg_recoge2_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_recoge2_nino.CustomButton.UseSelectable = true;
-            this.dg_recoge2_nino.CustomButton.Visible = false;
-            this.dg_recoge2_nino.Lines = new string[] {
-        " "};
-            this.dg_recoge2_nino.Location = new System.Drawing.Point(73, 674);
-            this.dg_recoge2_nino.MaxLength = 32767;
-            this.dg_recoge2_nino.Name = "dg_recoge2_nino";
-            this.dg_recoge2_nino.PasswordChar = '\0';
-            this.dg_recoge2_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_recoge2_nino.SelectedText = "";
-            this.dg_recoge2_nino.SelectionLength = 0;
-            this.dg_recoge2_nino.SelectionStart = 0;
-            this.dg_recoge2_nino.ShortcutsEnabled = true;
-            this.dg_recoge2_nino.Size = new System.Drawing.Size(156, 23);
-            this.dg_recoge2_nino.TabIndex = 73;
-            this.dg_recoge2_nino.Text = " ";
-            this.dg_recoge2_nino.UseSelectable = true;
-            this.dg_recoge2_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_recoge2_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_parent_recoge2
-            // 
-            // 
-            // 
-            // 
-            this.dg_parent_recoge2.CustomButton.Image = null;
-            this.dg_parent_recoge2.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_parent_recoge2.CustomButton.Name = "";
-            this.dg_parent_recoge2.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_parent_recoge2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_parent_recoge2.CustomButton.TabIndex = 1;
-            this.dg_parent_recoge2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_parent_recoge2.CustomButton.UseSelectable = true;
-            this.dg_parent_recoge2.CustomButton.Visible = false;
-            this.dg_parent_recoge2.Lines = new string[] {
-        " "};
-            this.dg_parent_recoge2.Location = new System.Drawing.Point(316, 672);
-            this.dg_parent_recoge2.MaxLength = 32767;
-            this.dg_parent_recoge2.Name = "dg_parent_recoge2";
-            this.dg_parent_recoge2.PasswordChar = '\0';
-            this.dg_parent_recoge2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_parent_recoge2.SelectedText = "";
-            this.dg_parent_recoge2.SelectionLength = 0;
-            this.dg_parent_recoge2.SelectionStart = 0;
-            this.dg_parent_recoge2.ShortcutsEnabled = true;
-            this.dg_parent_recoge2.Size = new System.Drawing.Size(156, 23);
-            this.dg_parent_recoge2.TabIndex = 74;
-            this.dg_parent_recoge2.Text = " ";
-            this.dg_parent_recoge2.UseSelectable = true;
-            this.dg_parent_recoge2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_parent_recoge2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_recoge3_nino
-            // 
-            // 
-            // 
-            // 
-            this.dg_recoge3_nino.CustomButton.Image = null;
-            this.dg_recoge3_nino.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_recoge3_nino.CustomButton.Name = "";
-            this.dg_recoge3_nino.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_recoge3_nino.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_recoge3_nino.CustomButton.TabIndex = 1;
-            this.dg_recoge3_nino.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_recoge3_nino.CustomButton.UseSelectable = true;
-            this.dg_recoge3_nino.CustomButton.Visible = false;
-            this.dg_recoge3_nino.Lines = new string[] {
-        " "};
-            this.dg_recoge3_nino.Location = new System.Drawing.Point(73, 707);
-            this.dg_recoge3_nino.MaxLength = 32767;
-            this.dg_recoge3_nino.Name = "dg_recoge3_nino";
-            this.dg_recoge3_nino.PasswordChar = '\0';
-            this.dg_recoge3_nino.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_recoge3_nino.SelectedText = "";
-            this.dg_recoge3_nino.SelectionLength = 0;
-            this.dg_recoge3_nino.SelectionStart = 0;
-            this.dg_recoge3_nino.ShortcutsEnabled = true;
-            this.dg_recoge3_nino.Size = new System.Drawing.Size(156, 23);
-            this.dg_recoge3_nino.TabIndex = 75;
-            this.dg_recoge3_nino.Text = " ";
-            this.dg_recoge3_nino.UseSelectable = true;
-            this.dg_recoge3_nino.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_recoge3_nino.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_parent_recoge3
-            // 
-            // 
-            // 
-            // 
-            this.dg_parent_recoge3.CustomButton.Image = null;
-            this.dg_parent_recoge3.CustomButton.Location = new System.Drawing.Point(134, 1);
-            this.dg_parent_recoge3.CustomButton.Name = "";
-            this.dg_parent_recoge3.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_parent_recoge3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_parent_recoge3.CustomButton.TabIndex = 1;
-            this.dg_parent_recoge3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_parent_recoge3.CustomButton.UseSelectable = true;
-            this.dg_parent_recoge3.CustomButton.Visible = false;
-            this.dg_parent_recoge3.Lines = new string[] {
-        " "};
-            this.dg_parent_recoge3.Location = new System.Drawing.Point(316, 707);
-            this.dg_parent_recoge3.MaxLength = 32767;
-            this.dg_parent_recoge3.Name = "dg_parent_recoge3";
-            this.dg_parent_recoge3.PasswordChar = '\0';
-            this.dg_parent_recoge3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_parent_recoge3.SelectedText = "";
-            this.dg_parent_recoge3.SelectionLength = 0;
-            this.dg_parent_recoge3.SelectionStart = 0;
-            this.dg_parent_recoge3.ShortcutsEnabled = true;
-            this.dg_parent_recoge3.Size = new System.Drawing.Size(156, 23);
-            this.dg_parent_recoge3.TabIndex = 76;
-            this.dg_parent_recoge3.Text = " ";
-            this.dg_parent_recoge3.UseSelectable = true;
-            this.dg_parent_recoge3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_parent_recoge3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // metroLabel8
-            // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(588, 643);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(74, 19);
-            this.metroLabel8.TabIndex = 77;
-            this.metroLabel8.Text = "Contacto 1:";
-            // 
-            // metroLabel9
-            // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(588, 674);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(76, 19);
-            this.metroLabel9.TabIndex = 78;
-            this.metroLabel9.Text = "Contacto 2:";
-            // 
-            // metroLabel10
-            // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(588, 707);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(76, 19);
-            this.metroLabel10.TabIndex = 79;
-            this.metroLabel10.Text = "Contacto 3:";
-            // 
-            // dg_aviso_emergencia1
-            // 
-            // 
-            // 
-            // 
-            this.dg_aviso_emergencia1.CustomButton.Image = null;
-            this.dg_aviso_emergencia1.CustomButton.Location = new System.Drawing.Point(214, 1);
-            this.dg_aviso_emergencia1.CustomButton.Name = "";
-            this.dg_aviso_emergencia1.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_aviso_emergencia1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_aviso_emergencia1.CustomButton.TabIndex = 1;
-            this.dg_aviso_emergencia1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_aviso_emergencia1.CustomButton.UseSelectable = true;
-            this.dg_aviso_emergencia1.CustomButton.Visible = false;
-            this.dg_aviso_emergencia1.Lines = new string[] {
-        " "};
-            this.dg_aviso_emergencia1.Location = new System.Drawing.Point(668, 643);
-            this.dg_aviso_emergencia1.MaxLength = 32767;
-            this.dg_aviso_emergencia1.Name = "dg_aviso_emergencia1";
-            this.dg_aviso_emergencia1.PasswordChar = '\0';
-            this.dg_aviso_emergencia1.PromptText = "Nombre y telefono";
-            this.dg_aviso_emergencia1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_aviso_emergencia1.SelectedText = "";
-            this.dg_aviso_emergencia1.SelectionLength = 0;
-            this.dg_aviso_emergencia1.SelectionStart = 0;
-            this.dg_aviso_emergencia1.ShortcutsEnabled = true;
-            this.dg_aviso_emergencia1.Size = new System.Drawing.Size(236, 23);
-            this.dg_aviso_emergencia1.TabIndex = 80;
-            this.dg_aviso_emergencia1.Text = " ";
-            this.dg_aviso_emergencia1.UseSelectable = true;
-            this.dg_aviso_emergencia1.WaterMark = "Nombre y telefono";
-            this.dg_aviso_emergencia1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_aviso_emergencia1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_aviso_emergencia2
-            // 
-            // 
-            // 
-            // 
-            this.dg_aviso_emergencia2.CustomButton.Image = null;
-            this.dg_aviso_emergencia2.CustomButton.Location = new System.Drawing.Point(214, 1);
-            this.dg_aviso_emergencia2.CustomButton.Name = "";
-            this.dg_aviso_emergencia2.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_aviso_emergencia2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_aviso_emergencia2.CustomButton.TabIndex = 1;
-            this.dg_aviso_emergencia2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_aviso_emergencia2.CustomButton.UseSelectable = true;
-            this.dg_aviso_emergencia2.CustomButton.Visible = false;
-            this.dg_aviso_emergencia2.Lines = new string[] {
-        " "};
-            this.dg_aviso_emergencia2.Location = new System.Drawing.Point(668, 674);
-            this.dg_aviso_emergencia2.MaxLength = 32767;
-            this.dg_aviso_emergencia2.Name = "dg_aviso_emergencia2";
-            this.dg_aviso_emergencia2.PasswordChar = '\0';
-            this.dg_aviso_emergencia2.PromptText = "Nombre y telefono";
-            this.dg_aviso_emergencia2.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_aviso_emergencia2.SelectedText = "";
-            this.dg_aviso_emergencia2.SelectionLength = 0;
-            this.dg_aviso_emergencia2.SelectionStart = 0;
-            this.dg_aviso_emergencia2.ShortcutsEnabled = true;
-            this.dg_aviso_emergencia2.Size = new System.Drawing.Size(236, 23);
-            this.dg_aviso_emergencia2.TabIndex = 81;
-            this.dg_aviso_emergencia2.Text = " ";
-            this.dg_aviso_emergencia2.UseSelectable = true;
-            this.dg_aviso_emergencia2.WaterMark = "Nombre y telefono";
-            this.dg_aviso_emergencia2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_aviso_emergencia2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dg_aviso_emergencia3
-            // 
-            // 
-            // 
-            // 
-            this.dg_aviso_emergencia3.CustomButton.Image = null;
-            this.dg_aviso_emergencia3.CustomButton.Location = new System.Drawing.Point(214, 1);
-            this.dg_aviso_emergencia3.CustomButton.Name = "";
-            this.dg_aviso_emergencia3.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.dg_aviso_emergencia3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.dg_aviso_emergencia3.CustomButton.TabIndex = 1;
-            this.dg_aviso_emergencia3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.dg_aviso_emergencia3.CustomButton.UseSelectable = true;
-            this.dg_aviso_emergencia3.CustomButton.Visible = false;
-            this.dg_aviso_emergencia3.Lines = new string[] {
-        " "};
-            this.dg_aviso_emergencia3.Location = new System.Drawing.Point(670, 707);
-            this.dg_aviso_emergencia3.MaxLength = 32767;
-            this.dg_aviso_emergencia3.Name = "dg_aviso_emergencia3";
-            this.dg_aviso_emergencia3.PasswordChar = '\0';
-            this.dg_aviso_emergencia3.PromptText = "Nombre y telefono";
-            this.dg_aviso_emergencia3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dg_aviso_emergencia3.SelectedText = "";
-            this.dg_aviso_emergencia3.SelectionLength = 0;
-            this.dg_aviso_emergencia3.SelectionStart = 0;
-            this.dg_aviso_emergencia3.ShortcutsEnabled = true;
-            this.dg_aviso_emergencia3.Size = new System.Drawing.Size(236, 23);
-            this.dg_aviso_emergencia3.TabIndex = 82;
-            this.dg_aviso_emergencia3.Text = " ";
-            this.dg_aviso_emergencia3.UseSelectable = true;
-            this.dg_aviso_emergencia3.WaterMark = "Nombre y telefono";
-            this.dg_aviso_emergencia3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.dg_aviso_emergencia3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
->>>>>>> reporte_cristian
             // 
             // Niños
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1100, 788);
-            this.Controls.Add(this.pictureBox1);
-=======
-            this.ClientSize = new System.Drawing.Size(1116, 911);
->>>>>>> reporte_cristian
-            this.Controls.Add(this.metroTabControl1);
+            this.ClientSize = new System.Drawing.Size(861, 371);
             this.Name = "Niños";
-            this.Text = "Niños";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Niños_FormClosed);
-            this.Load += new System.EventHandler(this.Niños_Load);
             this.tab_es.ResumeLayout(false);
             this.tab_es.PerformLayout();
             this.tab_dg.ResumeLayout(false);
@@ -5729,9 +5714,7 @@
         private MetroFramework.Controls.MetroCheckBox dm_chb1;
         private MetroFramework.Controls.MetroTextBox dm_txtb1;
         private MetroFramework.Controls.MetroLabel dm_lb1;
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox1;
-=======
         private MetroFramework.Controls.MetroTextBox dg_codPost;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroTextBox dg_aviso_emergencia3;
@@ -5752,6 +5735,5 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel2;
->>>>>>> reporte_cristian
     }
 }
